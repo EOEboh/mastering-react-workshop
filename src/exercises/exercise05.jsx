@@ -1,5 +1,5 @@
-const exercise05 = () => {
+const Exercise05 = () => {
   return <div>exercise05</div>;
 };
 
-export default exercise05;
+export default Exercise05;

@@ -3,10 +3,10 @@ import { SplitScreen } from "../components/patterns/SplitScreen";
 
 const Exercise01 = () => {
   const LeftSideComp = ({ title }) => {
-    return <h2 style={{ backgroundColor: "crimson" }}>{title}</h2>;
+    return <h2 className="bg-lime-500">{title}</h2>;
   };
   const RightSideComp = ({ title }) => {
-    return <h2 style={{ backgroundColor: "gray" }}>{title}</h2>;
+    return <h2 className="bg-rose-500">{title}</h2>;
   };
 
   return (

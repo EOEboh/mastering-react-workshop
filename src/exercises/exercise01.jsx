@@ -3,23 +3,22 @@
 import { SplitScreen } from "../components/patterns/SplitScreen";
 
 const Exercise01 = () => {
-  // This is your first exercise. You're highly welcome to this amazing workshop!
+  // This is your first exercise!
 
-  // Make the two functions below this line return the texts: "left" and "right" respectively
-  // Give the returned texts some bg-color for more visibility
+  // Make the two functions below this lines return the texts: "left" and "right" respectively
+  // Give the returned texts some bg-color for more visibility (just use tailwind class names)
   // Pass the functions via children to the `SplitScreen` component in the render part below
-  // The goal is to make sure these components are received by the `SplitScreen` component
   const LeftSidePane = () => {};
   const RightSidePane = () => {};
 
-  // Pass some width props named `leftWidth` and `rightWidth` to the `SplitScreen` component
+  // Pass some props named `leftWidth` and `rightWidth` to the `SplitScreen` component
   // The above props should have a numerical value
 
-  // Once you've completed the above exercise, head to your `SplitScreen` component itself
+  // Once you've completed the above exercise, head to your `SplitScreen` component
   // and follow the instructions there!
 
   return (
-    <div className="flex flex-col justify-center">
+    <div className="flex justify-center">
       <SplitScreen />
     </div>
   );

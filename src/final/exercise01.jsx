@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
-const SplitScreen = ({ children, leftWidth = 1, rightWidth = 1 }) => {
+const SplitScreen = ({ children, leftWidth = "50%", rightWidth = "50%" }) => {
   const [left, right] = children;
   return (
-    <div className="flex">
-      <div className={`flex-[${leftWidth}]`}>{left}</div>
-      <div className={`flex-[${rightWidth}]`}>{right}</div>
+    <div className="flex w-full">
+      <div className={`w-[${leftWidth}]`}>{left}</div>
+      <div className={`w-[${rightWidth}]`}>{right}</div>
     </div>
   );
 };
@@ -19,7 +19,7 @@ const Exercise01Final = () => {
 
   return (
     <div className="flex justify-center">
-      <SplitScreen leftWidth={1} rightWidth={3}>
+      <SplitScreen leftWidth={"70%"} rightWidth={"30%"}>
         <LeftSidePane title={"This is the left pane"} />
         <RightSidePane title={"This is the right pane"} />
       </SplitScreen>

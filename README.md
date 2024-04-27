@@ -17,11 +17,19 @@ To set up project, **fork [sailsconf_react_workshop](https://github.com/EOEboh/s
 Then clone your repo locally.
 
 ```
-- git clone https://github.com/[YOUR_USERNAME]/sailsconf_react_workshop.git
+- git clone https://github.com/[YOUR_USERNAME]/mastering-react-workshop.git (HTTPS)
 
-- cd sailsconf_react_workshop
+- git@github.com:[YOUR_USERNAME]/mastering-react-workshop.git (SSH)
+
+- cd mastering-react-workshop
 
 - yarn install
+```
+
+Alternatively, you can clone the project via the GitHub CLI by typing the following command:
+
+```
+- gh repo clone [YOUR_USERNAME]/mastering-react-workshop
 ```
 
 ### Branches

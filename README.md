@@ -1,4 +1,4 @@
-# Sails Conf 2024 Abuja
+# Mastering React: Building Predictable Apps Workshop
 
 The goal of this project is to showcase the best practices in building very reliable React applications.
 

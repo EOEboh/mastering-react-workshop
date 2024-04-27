@@ -2,13 +2,13 @@ import { NavLink, Outlet } from "react-router-dom";
 import "../App.css";
 
 const NAV_ITEMS = [
-  { id: 1, text: "home" },
-  { id: 2, text: "exercise-01" },
-  { id: 3, text: "exercise-02" },
-  { id: 4, text: "exercise-03" },
-  { id: 5, text: "exercise-04" },
-  { id: 6, text: "exercise-05" },
-  { id: 7, text: "exercise-06" },
+  { id: 1, text: "Home", to: "/home" },
+  { id: 2, text: "Exercise 1", to: "/exercise-01" },
+  { id: 3, text: "Exercise 2", to: "/exercise-02" },
+  { id: 4, text: "Exercise 3", to: "/exercise-03" },
+  { id: 5, text: "Exercise 4", to: "/exercise-04" },
+  { id: 6, text: "Exercise 5", to: "/exercise-05" },
+  { id: 7, text: "Exercise 6", to: "/exercise-06" },
 ];
 
 export default function Layout() {
@@ -22,7 +22,7 @@ export default function Layout() {
             {NAV_ITEMS.map((item) => (
               <li key={item.id}>
                 <NavLink
-                  to={item.text}
+                  to={item.to}
                   className={({ isActive, isPending }) =>
                     isActive ? "active" : isPending ? "pending" : ""
                   }

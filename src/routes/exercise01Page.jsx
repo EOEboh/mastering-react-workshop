@@ -1,12 +1,18 @@
-import Exercise01 from "../exercises/exercise01";
-import Exercise01Final from "../final/exercise01";
+import { ButtonLink } from "../utils/helpers";
 
 const Exercise01Page = () => {
   return (
-    <div className="grid grid-rows-1 grid-flow-col gap-4">
-      <Exercise01 />
+    <div>
+      <div className="flex flex-col">
+        <h2 className="text-center font-semibold text-xl mb-4">
+          Splitter Layout Component Pattern
+        </h2>
+      </div>
 
-      <Exercise01Final />
+      <div className="flex justify-center gap-4 items-center">
+        <ButtonLink to={"/exercises/01"}>Current Task</ButtonLink>
+        <ButtonLink to={"/finals/01"}>Final Version</ButtonLink>
+      </div>
     </div>
   );
 };

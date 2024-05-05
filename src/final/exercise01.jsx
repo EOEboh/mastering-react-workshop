@@ -2,7 +2,7 @@
 const SplitScreen = ({ children, leftWidth = "50%", rightWidth = "50%" }) => {
   const [left, right] = children;
   return (
-    <div className="flex w-full">
+    <div className="flex justify-around w-full">
       <div className={`w-[${leftWidth}]`}>{left}</div>
       <div className={`w-[${rightWidth}]`}>{right}</div>
     </div>

@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import { SplitScreen } from "../components/patterns/SplitScreen";
+import { SplitScreen } from "../components/layout/SplitScreen";
 
 const Exercise01 = () => {
   // This is your first exercise!

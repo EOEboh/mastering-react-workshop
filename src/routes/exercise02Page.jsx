@@ -3,7 +3,7 @@ import PageStructure from "../components/PageStructure";
 const Exercise02Page = () => {
   return (
     <PageStructure
-      title={"Children Composition: Manual and Array Props"}
+      title={"Children Composition: Manual Child and Array Props"}
       current={"/exercises/02"}
       final={"/finals/02"}
     />

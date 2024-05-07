@@ -81,7 +81,7 @@ const megaMenu = [
 const RecursiveComponent = ({ data = [] }) => {
   const [showNested, setShowNested] = useState(false);
 
-  // handle show/hide functionality
+  // handle show/hide
   const toggleNested = (title) => {
     setShowNested({ ...showNested, [title]: !showNested[title] });
   };
@@ -101,7 +101,7 @@ const RecursiveComponent = ({ data = [] }) => {
             )}
 
             <span>{parent.title}</span>
-            {/* Base Condition and Rendering recursive component from inside itself */}
+            {/* Base Condition */}
             <div style={{ display: !showNested[parent.title] && "none" }}>
               {parent.isPregnant && (
                 <RecursiveComponent data={parent.subMenu} />

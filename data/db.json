@@ -1,0 +1,64 @@
+{
+  "nobel_winners": [
+    {
+      "id": 1,
+      "name": "Marie Curie",
+      "country": "Poland",
+      "field": "Physics",
+      "year": 1903
+    },
+    {
+      "id": 2,
+      "name": "Albert Einstein",
+      "country": "Germany",
+      "field": "Physics",
+      "year": 1921
+    },
+    {
+      "id": 3,
+      "name": "Nelson Mandela",
+      "country": "South Africa",
+      "field": "Peace",
+      "year": 1993
+    },
+    {
+      "id": 4,
+      "name": "Malala Yousafzai",
+      "country": "Pakistan",
+      "field": "Peace",
+      "year": 2014
+    }
+  ],
+  "gold_medalists": [
+    {
+      "id": 1,
+      "name": "Michael Phelps",
+      "sport": "Swimming",
+      "country": "United States"
+    },
+    {
+      "id": 2,
+      "name": "Usain Bolt",
+      "sport": "Athletics",
+      "country": "Jamaica"
+    },
+    {
+      "id": 3,
+      "name": "Simone Biles",
+      "sport": "Gymnastics",
+      "country": "United States"
+    },
+    {
+      "id": 4,
+      "name": "Katie Ledecky",
+      "sport": "Swimming",
+      "country": "United States"
+    },
+    {
+      "id": 5,
+      "name": "Nadia Comăneci",
+      "sport": "Gymnastics",
+      "country": "Romania"
+    }
+  ]
+}

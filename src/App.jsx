@@ -16,6 +16,9 @@ import Exercise03Page from "./routes/exercise03Page";
 import Exercise04 from "./exercises/exercise04";
 import Exercise04Final from "./final/exercise04";
 import Exercise04Page from "./routes/exercise04Page";
+import Exercise05 from "./exercises/exercise05";
+import Exercise05Final from "./final/exercise05";
+import Exercise05Page from "./routes/exercise05Page";
 
 export default function App() {
   return (
@@ -35,6 +38,9 @@ export default function App() {
           <Route path="/exercises/04" element={<Exercise04 />} />
           <Route path="/finals/04" element={<Exercise04Final />} />
           <Route path="/exercise-04" element={<Exercise04Page />} />
+          <Route path="/exercises/05" element={<Exercise05 />} />
+          <Route path="/finals/05" element={<Exercise05Final />} />
+          <Route path="/exercise-05" element={<Exercise05Page />} />
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>

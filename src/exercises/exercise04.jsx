@@ -6,18 +6,18 @@ import GenericLoader from "../components/container/GenericLoader";
 const Exercise04 = () => {
   return (
     // This homepage needs to contain two "Container components" and two "UI components"
-    // Find out which is which and 👇🏽
     // 👉🏽 Wrap each UI component with its respective Containers
 
     <div className="flex items-center justify-between">
       <NobelWinnersLoader></NobelWinnersLoader>
 
-      {/* Here you need to pass your gold_medalists endpoint url as prop  */}
-      {/* You also need to pass whatever prop name that will represent the key of the data */}
+      {/* 👉🏽 Pass your gold_medalists endpoint url as prop  */}
+      {/* 👉🏽 Also pass whatever prop name that will represent the key of the data */}
       <GenericLoader url={`#`} dataProp={``}></GenericLoader>
 
-      {/* Delete this div below when you've completed the above steps */}
-      <div>...I need to receive my data</div>
+      {/* 👉🏽 Delete the div below when you've completed the above steps */}
+      {/* 👉🏽 Head over to the `<NobelWinnersLoader>` and `<GenericLoader />` components respectively */}
+      <div>...I need to load my data</div>
     </div>
   );
 };

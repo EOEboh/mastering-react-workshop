@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import {
   Children,
@@ -11,8 +12,6 @@ import {
 const NobelWinnersLoader = ({ children }) => {
   const [winners, setWinners] = useState(null);
 
-  console.log("winners", winners);
-
   useEffect(() => {
     (async () => {
       const response = await fetch(`http://localhost:3000/nobel_winners`);
@@ -22,12 +21,13 @@ const NobelWinnersLoader = ({ children }) => {
   }, []);
 
   return (
+    // The code block below maps the children of this Container component..
+    // ..and checks if the child is a valid React element and returns the child component
+    // 👉🏽 Pass the "winners" state above as a prop to each child element
     <Fragment>
       {Children.map(children, (child) => {
         if (isValidElement(child)) {
-          return cloneElement(child, {
-            winners,
-          });
+          return cloneElement(child);
         }
         return child;
       })}

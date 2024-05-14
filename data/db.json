@@ -5,28 +5,32 @@
       "name": "Marie Curie",
       "country": "Poland",
       "field": "Physics",
-      "year": 1903
+      "year": 1903,
+      "image": "https://imgur.com/SHIXsim.jpg"
     },
     {
       "id": 2,
       "name": "Albert Einstein",
       "country": "Germany",
       "field": "Physics",
-      "year": 1921
+      "year": 1921,
+      "image": "https://imgur.com/TSKq68L.jpg"
     },
     {
       "id": 3,
       "name": "Nelson Mandela",
       "country": "South Africa",
       "field": "Peace",
-      "year": 1993
+      "year": 1993,
+      "image": "https://imgur.com/3FfELEq.jpg"
     },
     {
       "id": 4,
       "name": "Malala Yousafzai",
       "country": "Pakistan",
       "field": "Peace",
-      "year": 2014
+      "year": 2014,
+      "image": "https://imgur.com/TYXJG2K.jpg"
     }
   ],
   "gold_medalists": [
@@ -34,31 +38,36 @@
       "id": 1,
       "name": "Michael Phelps",
       "sport": "Swimming",
-      "country": "United States"
+      "country": "United States",
+      "image": "https://example.com/michael_phelps.jpg"
     },
     {
       "id": 2,
       "name": "Usain Bolt",
       "sport": "Athletics",
-      "country": "Jamaica"
+      "country": "Jamaica",
+      "image": "https://example.com/usain_bolt.jpg"
     },
     {
       "id": 3,
       "name": "Simone Biles",
       "sport": "Gymnastics",
-      "country": "United States"
+      "country": "United States",
+      "image": "https://example.com/simone_biles.jpg"
     },
     {
       "id": 4,
       "name": "Katie Ledecky",
       "sport": "Swimming",
-      "country": "United States"
+      "country": "United States",
+      "image": "https://example.com/katie_ledecky.jpg"
     },
     {
       "id": 5,
       "name": "Nadia Comăneci",
       "sport": "Gymnastics",
-      "country": "Romania"
+      "country": "Romania",
+      "image": "https://example.com/nadia_comaneci.jpg"
     }
   ]
 }

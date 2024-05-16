@@ -22,7 +22,7 @@ const Exercise05 = () => {
 
       {/* Delete the div below when you've completed the above steps */}
       {/* 👉🏽 Head over to the  `<NobelWinnersLoader2 />` and `<GenericLoader2 />` components respectively, and continue instructions there */}
-      <div>...I need to load my data</div>
+      <div>Exercise05</div>
     </div>
   );
 };

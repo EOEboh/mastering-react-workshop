@@ -16,7 +16,7 @@ const GenericLoader = ({ url, render }) => {
   return render(data);
 };
 
-const GoldMedalists = ({ medalists }) => {
+const GoldMedalists = ({ medalists = [] }) => {
   return medalists ? (
     <div className="pl-5">
       <h2 className="">Generic Container Loader</h2>
@@ -35,7 +35,7 @@ const GoldMedalists = ({ medalists }) => {
   );
 };
 
-const NobelWinners = ({ winners }) => {
+const NobelWinners = ({ winners = [] }) => {
   return winners ? (
     <div className="pl-5">
       <h2 className="">Specific Container Loader</h2>

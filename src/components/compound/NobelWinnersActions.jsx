@@ -15,4 +15,4 @@ export default function NobelWinnersActions() {
   );
 }
 
-// ❗❗ Don't forget to uncomment this on the homepage: ('/exercise-06')
+// ❗❗ Don't forget to uncomment this component on the homepage: ('/exercise-06')

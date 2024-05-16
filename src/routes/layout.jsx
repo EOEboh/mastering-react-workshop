@@ -9,6 +9,7 @@ const NAV_ITEMS = [
   { id: 5, text: "Exercise 4", to: "/exercise-04" },
   { id: 6, text: "Exercise 5", to: "/exercise-05" },
   { id: 7, text: "Exercise 6", to: "/exercise-06" },
+  { id: 8, text: "Exercise 7", to: "/exercise-07" },
 ];
 
 export default function Layout() {

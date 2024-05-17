@@ -34,3 +34,8 @@ gh repo clone [YOUR_USERNAME]/mastering-react-workshop
 Just click the CodeSandBox link below and set-up your workspace!
 
 [![Edit EOEboh/mastering-react-workshop/main](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/EOEboh/mastering-react-workshop/main?embed=1)
+
+## Workshop Emoji Jargons
+👉🏽 : the finger-pointing emoji indicate that an action need to be taken. Think of it as the "actionable instruction" for every step
+❗❗ : the double red exclamation mark indicates a warning action, anytime you see it, make sure you take note of what it is trying to tell you
+💭 : the thought emoji indicates a hint, think of it as something that can help you achieve a particular step

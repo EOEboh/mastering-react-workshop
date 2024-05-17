@@ -12,7 +12,7 @@ This workshop is not targeted at React beginners but at developers with a good a
 
 The facilitator used yarn as the package manager. Feel free to use npm if that is your preference. For the full details of the setup of this workshop, have a look at [EnvironmentSetup.md](/docs/EnvironmentSetup.md).
 
-To set up project: **fork [sailsconf_react_workshop](https://github.com/EOEboh/sailsconf_react_workshop) into your own Github account.**
+To set up project: **fork [sailsconf_react_workshop](https://github.com/EOEboh/mastering-react-workshop/) into your own Github account.**
 
 Then clone your repo locally.
 
